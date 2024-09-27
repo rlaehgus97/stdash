@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "streamlit>=1.38.0",
     "matplotlib>=3.9.2",
+    "streamlit-option-menu>=0.3.13",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
@@ -16,3 +17,8 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
+
+[tool.pdm.dev-dependencies]
+note = [
+    "notebook>=7.2.2",
+]
